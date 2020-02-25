@@ -19,7 +19,6 @@ body
     margin-right: 0;
     width: 100%;
     height: 100%;
-
 }
 
 div.HeaderDiv
@@ -29,9 +28,10 @@ div.HeaderDiv
     background-size: cover;
     margin-left:auto; 
     margin-right:auto;
+    height: 50%;
     width: 100%;
-    height: 100%;
-    padding-bottom: 600px;
+    background-position: 0 -150px; 
+    padding-bottom: 750px;
 }
 
 header
