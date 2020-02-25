@@ -1,11 +1,3 @@
-body
-{
-    font-family: Open Sans;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.667;
-}
-
 h1, h2, h3
 {
     font-family: beyond_the_mountainsregular;
@@ -36,7 +28,7 @@ div.HeaderDiv
     height: 50%;
     width: 100%;
     background-position: 0 -150px; 
-    padding-bottom: 750px;
+    padding-bottom: 622px;
 }
 
 header
@@ -62,7 +54,7 @@ img.Ibra
     display:inline;
 }
 
-div.Image
+div.TopTriangle
 {
     width: 100%;
     height: 50px;
@@ -72,12 +64,19 @@ div.Image
     opacity: 0.55;
 }
 
-img.TopTriangle
+div.BottomTriangle
 {
-    display:inline;
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
     background-repeat: repeat-x;
+    position: relative;
+    top: 630px;
+    left: -10px;
+    overflow: hidden;    
 }
-
 nav.head
 {
     text-align:center;
