@@ -1,109 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: local(beyond_the_mountains.woff);
+ }
+
 h1, h2, h3
 {
-    font-family: beyond_the_mountainsregular;
+    font-family: "font-family: 'Beyond The Mountains'";
 }
 
 body
 {
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
     line-height: 1.667;
-
-    margin-top:0; 
-    margin-bottom:0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    height: 100%;
 }
-
-div.HeaderDiv
-{
-    background-image: url("../Images/hamburguesa2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left:auto; 
-    margin-right:auto;
-    height: 50%;
-    width: 100%;
-    background-position: 0 -150px; 
-    padding-bottom: 622px;
-}
-
-header
-{
-    background: rgba(0, 0, 0, 0.55);
-}
-
-table.header
-{
-    margin-left:auto; 
-    margin-right:auto;
-}
-
-div
-{
-    display:inline-block;
-}
-
-img.Ibra
-{
-    height:40%;
-    padding-right: 80px;
-    display:inline;
-}
-
-div.TopTriangle
-{
-    width: 100%;
-    height: 50px;
-    background-image: url("../Images/triangle_bg_black.png");
-    background-size: 25px 10px;
-    background-repeat: repeat-x;
-    opacity: 0.55;
-}
-
-div.BottomTriangle
-{
-    transform: rotate(180deg);
-    width: 100%;
-    height: 50px;
-    background-image: url("../Images/triangle_bg_black.png");
-    background-size: 25px 10px;
-    background-repeat: repeat-x;
-    position: relative;
-    top: 630px;
-    left: -10px;
-    overflow: hidden;    
-}
-nav.head
-{
-    text-align:center;
-    padding-right: 30px;
-    display: inline;
-    
-}
-
-li
-{
-    display:inline;
-}
-
-nav a
-{
-    text-decoration: none;
-    display:inline-block;
-    padding-right: 20px;
-    color:white;
-}
-
-a.current
-{
-   color: red;
-}
-
-
-
-
-
