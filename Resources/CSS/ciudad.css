@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: local(beyond_the_mountains.woff);
+ }
+
+h1, h2, h3
+{
+    font-family: "font-family: 'Beyond The Mountains'";
+}
+
+body
+{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
