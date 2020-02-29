@@ -25,7 +25,6 @@ h1
 p.top
 {
     color: white;
-    padding-top: 100px;
     text-align: center;
     font-weight: bold;
 }
@@ -65,15 +64,12 @@ body
 
 div.HeaderDiv
 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa2.jpg");
+    background-position: 0 -150px;
+    min-height: 100vh;
+    width: 100%; 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-left:auto; 
-    margin-right:auto;
-    height: 50%;
-    width: 100%;
-    background-position: 0 -150px; 
-    padding-bottom: 538px;
+    background-size: 1550px 1000px; 
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa2.jpg");
 }
 
 div.buttondiv
@@ -130,7 +126,7 @@ div.BottomTriangle
     background-size: 25px 10px;
     background-repeat: repeat-x;
     position: relative;
-    top: 545px;
+    top: 200px;
     left: -10px;
     overflow: hidden;    
 }
