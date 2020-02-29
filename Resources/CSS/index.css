@@ -17,9 +17,36 @@ h1
     color: white;
     font-size: 100px;
     text-align: center;
-    padding-top: 100px;
-    letter-spacing: 2px;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
+
+p.top
+{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: red;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: white;
+  }
 
 body
 {
@@ -38,7 +65,7 @@ body
 
 div.HeaderDiv
 {
-    background-image: url("../Images/hamburguesa2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left:auto; 
@@ -47,7 +74,12 @@ div.HeaderDiv
     width: 100%;
     background-position: 0 -150px; 
     padding-bottom: 538px;
-    opacity: 0.80;
+}
+
+div.buttondiv
+{
+    text-align: center;
+    display:inline-block;
 }
 
 header
@@ -56,6 +88,12 @@ header
 }
 
 table.header
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table.menubutton
 {
     margin-left:auto; 
     margin-right:auto;
