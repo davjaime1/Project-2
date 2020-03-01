@@ -83,6 +83,25 @@ p.top
     border-bottom-color: #fff;
 }
 
+.menu_button_lowerest
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EF0031;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: #fff;
+}
+
 .menu_button_best
 {
     text-align: center;
@@ -231,6 +250,7 @@ div.Menu
     margin-right: auto;
     width: 100%;
     height: 100%;
+    padding-bottom: 75px;
 }
 
 header
