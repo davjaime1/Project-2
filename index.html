@@ -2,13 +2,29 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Home Page</title>
+    <title>Home Page</title>
 
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/ciudad.css">
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/ciudad.css">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script>
+        function openMenu(evt, foodName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(foodName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
 
 </head>
 
@@ -119,6 +135,30 @@
         </table>
         <table class="menubutton"><tr><td><a href="Menu.html" class="menu_button_lower">VER MENÚ HOY</a></td></tr></table>
         <div class="BottomTriangle2"></div>               
+    </div>
+    <div class="Menu">
+        <img class="TinyBurger" src="Resources/Images/Burguer.png" alt="Tiny Burger">
+        <h2 class="MostSold">Nuestro menú</h2> 
+        <button class="tablinks" onclick="openMenu(event, 'TODOS')">TODOS</button>
+        <button class="tablinks" onclick="openMenu(event, 'Pollo')">Pollo</button>
+        <button class="tablinks" onclick="openMenu(event, 'Carne')">Carne</button>
+        <button class="tablinks" onclick="openMenu(event, 'Mixta')">Mixta</button>
+        <button class="tablinks" onclick="openMenu(event, 'De Todito')">De Todito</button>
+
+        <div id="TODOS" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="Pollo" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+          
+          <div id="Carne" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
     </div>
 </body>
 </html>
