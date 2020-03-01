@@ -149,8 +149,10 @@ div.tab {
 {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Create an active/current tablink class */
@@ -293,6 +295,12 @@ img.TinyBurger
     max-width: 2%;
 }
 
+img.SecondMenu
+{
+    max-width: 15%;
+    float: left;
+}
+
 div.TopTriangle
 {
     width: 100%;
@@ -377,6 +385,11 @@ td.tab
     padding-bottom: 0;
 }
 
+td.menu2
+{
+    width:500px;
+}
+
 p.Name
 {
     margin: 0px;
@@ -391,4 +404,37 @@ p.Price
     text-align: center;
     color: white;
     padding-bottom: 10px;
+}
+
+p.Name2
+{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    display:inline;
+    top: 0;
+}
+
+div.Top_p_left
+{
+    height: 96px;
+    width: 40%;
+    vertical-align: top;
+    float: left;
+}
+
+div.Top_p_right
+{
+    height: 96px;
+    width: 15%;
+    vertical-align: top;
+    float: right;
+}
+
+p.RedPrice
+{
+
+    color: red;
+    display:inline;
+    vertical-align: text-top;
 }
