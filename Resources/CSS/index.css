@@ -307,7 +307,7 @@ img.Ibra
 
 img.Ibra2
 {
-    height:40%;
+    height:90%;
     display:inline;
 }
 
@@ -440,6 +440,12 @@ td.tab
 td.menu2
 {
     width:500px;
+}
+
+td.td_padding
+{
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 p.Name
