@@ -100,6 +100,11 @@ table.header
     margin-right:auto;
 }
 
+table.History
+{
+    margin-right:100px
+}
+
 table.menubutton
 {
     margin-left:auto; 
@@ -111,11 +116,31 @@ div
     display:inline-block;
 }
 
+div.History
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    background-position: 0 -150px;
+}
+
 img.Ibra
 {
     height:40%;
     padding-right: 80px;
     display:inline;
+}
+
+img.LeftPic
+{
+    float: left;
+    max-width:15%;
+}
+
+img.RightPic
+{
+    float: right;
+    max-width:15%;
 }
 
 img.TinyBurger
