@@ -2,14 +2,30 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Home Page</title>
+    <title>Home Page</title>
 
-  
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/index.css">
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/ciudad.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/ciudad.css">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"  rel="stylesheet"  type='text/css'>
+
+    <script>
+        function openMenu(evt, foodName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(foodName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
 
 </head>
 
@@ -35,9 +51,279 @@
         </header>
         <div class="TopTriangle">
         </div>  
-        <h1>LAS MEJORES DE LA CIUDAD</h1>
-        <div class="BottomTriangle">
-        </div>               
-    </div>   
+        <p class="top">LAS MEJORES DE LA CIUDAD</p>
+        
+        <h1>Hamburguesas</h1>
+        <table class="menubutton"><tr><td><a href="Menu.html" class="menu_button">VER MENÚ HOY</a></td></tr></table>
+        <div class="BottomTriangle"></div>               
+    </div>
+    <div class="History">
+        <img class="TinyBurger" src="Resources/Images/Burguer.png" alt="Tiny Burger">
+        <img class="LeftPic" src="Resources/Images/story1.png" alt="Ibra's Logo">
+        <img class="RightPic" src="Resources/Images/story2.png" alt="Ibra's Logo">
+        <h2>Nuestra historia</h2>
+        <table class="History">
+            <tr>
+                <td>
+                    <p>
+                        Los orígenes se remontan al 10 de junio de 1960, cuando Ibrahim Mata compraron la Hamburgueseria “Soy Yo” con una  inversión inicial de 950 dólares. El local estaba situado en Lecheria, y la idea de Ibrahim era vender Hamburguesas a domicilio a las personas de las residencias cercanas. Aquella experiencia no marchaba como tenían previsto.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        A pesar de todo, Ibrahim se mantuvo al frente del restaurante y tomó decisiones importantes para su futuro, como reducir la carta de productos y establecer un reparto a domicilio gratuito. Después de adquirir dos restaurantes más en Barcelona, en 1965 renombró sus tres locales como Ibra's Burger Grill.
+                    </p>  
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="MostSold">
+        <img class="TinyBurger" src="Resources/Images/Burguer.png" alt="Tiny Burger">
+        <h2 class="MostSold">Las más venididos</h2>
+        <table class="MostSold">
+            <tr>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer1.png" alt="Burger#1">
+                    <p class="Name">Mixta</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer2.png" alt="Burger#2">
+                    <p class="Name">Pollo</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer3.png" alt="Burger#3">
+                    <p class="Name">Carne</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold2">
+                    <img class="Burgers" src="Resources/Images/burguer1.png" alt="Burger#1">
+                    <p class="Name">Mixta</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer2.png" alt="Burger#2">
+                    <p class="Name">Pollo</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer3.png" alt="Burger#3">
+                    <p class="Name">Carne</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold">
+                    <img class="Burgers" src="Resources/Images/burguer1.png" alt="Burger#1">
+                    <p class="Name">Mixta</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+                <td class="MostSold2">
+                    <img class="Burgers" src="Resources/Images/burguer2.png" alt="Burger#2">
+                    <p class="Name">Pollo</p>
+                    <p class="Price">$11.90</p>
+                    <a href="Menu.html" class="menu_button_best menu_button_best2">Ordenar ahora</a>
+                </td>
+            </tr>
+        </table>
+        <table class="menubutton"><tr><td><a href="Menu.html" class="menu_button_lower">VER MENÚ HOY</a></td></tr></table>
+        <div class="BottomTriangle2"></div>               
+    </div>
+    <div class="Menu">
+        <img class="TinyBurger" src="Resources/Images/Burguer.png" alt="Tiny Burger">
+        <h2 class="MostSold">Nuestro menú</h2> 
+        <div class="tab">
+            <table class="menu_button_tab">
+                <tr class="tab_row">
+                <td class = "tab"><button class="tablinks active" onclick="openMenu(event, 'TODOS')">TODOS</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Pollo')">Pollo</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Carne')">Carne</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Mixta')">Mixta</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'De Todito')">De Todito</button></td>
+                </tr>
+            </table>
+            <div id="TODOS" class="tabcontent" style="display: block;">
+                <table class="MostSold">
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa1.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de pollo</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa2.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$20.00</p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa3.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa4.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa mixta</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$6.00</p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa5.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de todito</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa6.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa pollo</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$20.00</p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa7.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de todito</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa8.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$6.00</p></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="Pollo" class="tabcontent">
+                <table class="MostSold">
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa1.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de pollo</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa6.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa pollo</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$20.00</p></div>
+                        </td>
+                    </tr>
+                </table> 
+            </div>
+            
+            <div id="Carne" class="tabcontent">
+                <table class="MostSold">
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa2.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$20.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa3.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa8.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa carne</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$6.00</p></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="Mixta" class="tabcontent">
+                <table class="MostSold">
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa4.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa mixta</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$6.00</p></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="De Todito" class="tabcontent">
+                <table class="MostSold">
+                    <tr>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa5.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de todito</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                        <td class="menu2">
+                            <img class="SecondMenu" src="Resources/Images/hamburguesa7.jpg" alt="TodosBurger#1">
+                            <div class="Top_p_left"><p class="Name2">hamburguesa de todito</p></div>
+                            <div class="Top_p_right"><p class="RedPrice">$12.00</p></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    <table class="menubutton"><tr><td><a href="Menu.html" class="menu_button_lowerest">VER MENÚ HOY</a></td></tr></table>
+    </div>
+    <div class="Footer">
+        <div class="TopTriangle2"></div>
+        <table class="Footer">
+            <tr>
+                <td>
+                    <img class="Ibra2" src="Resources/Images/5.png" alt="Ibra's Logo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Green">
+                        Habla a:
+                    </p>
+                    <p class="White">
+                        Av. Intercomunal, sectro la Mora, calle 8
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Green">
+                        Telefono:
+                    </p>
+                    <p class="White">
+                        +58 251 261 00 01
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Green">
+                        Correo:
+                    </p>
+                    <p class="White">
+                        yourmail@gmail.com
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><i class="fa fa-pinterest white" aria-hidden="true"></i> <i class="fa fa-facebook-f white"></i> <i class="fa fa-twitter white"></i> <i class="fa fa-dribbble white"></i> <i class="fa fa-linkedin-square white"></i> <i class="fa fa-vimeo-square white"></i></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_padding">
+                    <p class="White">Copyright &#169 2020 Todos los derechos reservados | Este sitio esta hecho con &#9829 por DiazApps</p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
