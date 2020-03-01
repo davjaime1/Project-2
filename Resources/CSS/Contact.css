@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+@font-face {
+    font-family: 'Beyond The Mountains';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beyond The Mountains'), url('beyond_the_mountains.woff') format('woff');
+}
+
+.menu_button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EF0031;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-bottom-color: #fff;
+}
+
+body
+{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+
+    margin-top:0; 
+    margin-bottom:0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div
+{
+    display:inline-block;
+}
+
+header
+{
+    background: rgba(0, 0, 0, 0.55);
+}
+
+h1
+{
+    font-family: 'Beyond The Mountains';
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+div.HeaderDiv
+{
+    background-position: 0 -150px;
+    min-height: 100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: 1550px 1050px; 
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../Images/hamburguesa2.jpg");
+}
+
+div.TopTriangle
+{
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+    opacity: 0.55;
+}
+
+div.BottomTriangle
+{
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50px;
+    background-image: url("../Images/triangle_bg_black.png");
+    background-size: 25px 10px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: 200px;
+    left: -10px;
+    overflow: hidden;    
+}
+
+table.header
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table.menubutton
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+nav.head
+{
+    text-align:center;
+    padding-right: 30px;
+    display: inline;
+    
+}
+
+nav a
+{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+    text-decoration: none;
+    display:inline-block;
+    padding-right: 20px;
+    color:white;
+}
+
+li
+{
+    display:inline;
+}
+
+img.Ibra
+{
+    height:40%;
+    padding-right: 80px;
+    display:inline;
+}
+
+p.top
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.current
+{
+   color: red;
+}

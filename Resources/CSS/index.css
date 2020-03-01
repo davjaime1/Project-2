@@ -38,13 +38,6 @@ h2.MostSold
     padding-bottom: 50px;
 }
 
-p.top
-{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
 .menu_button
 {
     background-color: #4CAF50;
@@ -446,6 +439,13 @@ td.td_padding
 {
     padding-top: 60px;
     padding-bottom: 20px;
+}
+
+p.top
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 p.Name
