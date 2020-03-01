@@ -139,26 +139,31 @@
     <div class="Menu">
         <img class="TinyBurger" src="Resources/Images/Burguer.png" alt="Tiny Burger">
         <h2 class="MostSold">Nuestro menú</h2> 
-        <button class="tablinks" onclick="openMenu(event, 'TODOS')">TODOS</button>
-        <button class="tablinks" onclick="openMenu(event, 'Pollo')">Pollo</button>
-        <button class="tablinks" onclick="openMenu(event, 'Carne')">Carne</button>
-        <button class="tablinks" onclick="openMenu(event, 'Mixta')">Mixta</button>
-        <button class="tablinks" onclick="openMenu(event, 'De Todito')">De Todito</button>
-
-        <div id="TODOS" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-          </div>
-          
-          <div id="Pollo" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-          </div>
-          
-          <div id="Carne" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
+        <div class="tab">
+            <table class="menu_button_tab">
+                <tr class="tab_row">
+                <td class = "tab"><button class="tablinks active" onclick="openMenu(event, 'TODOS')">TODOS</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Pollo')">Pollo</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Carne')">Carne</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'Mixta')">Mixta</button></td>
+                <td><button class="tablinks" onclick="openMenu(event, 'De Todito')">De Todito</button></td>
+                </tr>
+            </table>
+            <div id="TODOS" class="tabcontent" style="display: block;">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+            
+            <div id="Pollo" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p> 
+            </div>
+            
+            <div id="Carne" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
