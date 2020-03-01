@@ -73,6 +73,20 @@ body
     height: 100%;
 }
 
+div
+{
+    display:inline-block;
+}
+
+div.History
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    background-position: 0 -150px;
+    padding-bottom: 100px;
+}
+
 div.HeaderDiv
 {
     background-position: 0 -150px;
@@ -87,6 +101,16 @@ div.buttondiv
 {
     text-align: center;
     display:inline-block;
+}
+
+div.MostSold
+{
+    background-position: 0 0px;
+    min-height: 100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: 1550px 1000px; 
+    background-image: repeating-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../Images/hamburguesa1.jpg");
 }
 
 header
@@ -109,19 +133,6 @@ table.menubutton
 {
     margin-left:auto; 
     margin-right:auto;
-}
-
-div
-{
-    display:inline-block;
-}
-
-div.History
-{
-    display: inline-block;
-    background-color: black;
-    color: white;
-    background-position: 0 -150px;
 }
 
 img.Ibra
